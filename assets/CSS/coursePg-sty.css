@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Rubik, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* heading text part */
+.course-face-1 {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    /* align-content: center; */
+}
+
+.cour-head-text-box {
+    /* border: solid #3a3d50; */
+    background-image: url(../img/bg_img/cool-background.png);
+    padding: 2.9dvw 0;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+
+}
+
+.cour-head-text {
+    /* border: solid #3a3d50; */
+    color: #3a3d50;
+    font-size: 2rem;
+    /* line-height: 4.5rem; */
+    padding: 10px;
+    font-weight: 600;
+    padding: 5dvh;
+}
+
+.cour-headBlue-text {
+    color: #6674CC
+}
+
+/* CARD    Starts  here */
+
+.cardContainer{
+    /* border: solid blueviolet; */
+    background-image: linear-gradient(45deg,wheat ,rgb(158, 84, 226));
+    /* background-color: rgba(59,130,246,.15); */
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* align-items: space-evenly; */
+}
+.card1{
+    background-color: white;
+    /* border: 3px solid; */
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px -5px rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    margin: 45px 15px;
+    padding: 18px;
+    /* height: 450px; */
+    width: 350px;
+}
+
+.cour-introduce{
+    text-decoration: none;
+    color: #3a3d50;
+}
+
+.cour-thumb{
+    /* border: solid #3a3d50; */
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+.cour-thumb img{
+    height: 100%;
+    width: 100%;
+    /* object-fit: cover; */
+}
+
+.cardText{
+    padding-top: 15px ;
+}
+
+.cour-name{
+    color: black;
+    font-size: 29px;
+    padding: 5px 0px;
+}
+
+.cour-details{
+    padding: 5px 0;
+}
+
+.card1-bottom{
+    /* border: solid ; */
+    padding: 5px 3px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 19px;
+}
+.cour-price{
+    color: #6674CC;
+    padding: 5px;
+}
+.enroll-box{
+    color: white;
+    background-color: rgb(6, 141, 96);
+    border-radius: 6px;
+    padding: 9px 20px;
+    /* font-family: ; */
+    font-weight: 500;
+}

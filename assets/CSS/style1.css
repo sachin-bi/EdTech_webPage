@@ -68,15 +68,15 @@ nav{
 .front-1{
     /* border: 2px solid #6674CC; */
     /* margin-top: 5%; */
-    padding: 6% ;
     /* height: ; */
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     align-content: center;
     /* background-image: linear-gradient(45deg,#fcdee2,#8591e2) ; */
     background-image: linear-gradient(45deg,#fdf7f8,#cdd3f5) ;
+    padding: 6% 0% ;
 }
 
 .head-quote-box1{
@@ -129,7 +129,7 @@ nav{
 
 .img-box2{
     /* border: 2px solid #6674CC; */
-    margin: 3px;
+    margin-left: 5%;
     display: flex;
 }
 .img1 img{
