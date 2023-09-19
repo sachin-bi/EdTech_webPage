@@ -1,4 +1,3 @@
-// var enroll = document.querySelectorAll(".enroll-box")
 
 var enroll = document.querySelectorAll(".enroll-box")
 
@@ -14,7 +13,7 @@ enroll.forEach(function(val){
             flag=1
         }else{
             val.style.backgroundColor = '#be4141'
-            val.innerHTML="Unroll"
+            val.innerHTML="Unenroll"
             flag=0
         }
     })
