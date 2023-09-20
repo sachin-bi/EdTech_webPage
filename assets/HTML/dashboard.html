@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - JAEP</title>
+    <link rel="sortcut icon" type="image" href="../img/logos/logo_jaep_J.png" />
+    <link rel="stylesheet" href="../CSS/style1.css">
+    <link rel="stylesheet" href="../CSS/dashboardCSS.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <section class="nav-logo">
+                <img src="../img/logos/logo_jaep_final_1.png" alt="JAEP" />
+            </section>
+            <ul class="navbar">
+                <li class="nav-option">
+                    <a href="../../index.html">
+                        <span class="nav-option-word">Home</span>
+                    </a>
+                </li>
+                <li class="nav-option">
+                    <a href="../HTML/courses-pg.html">
+                        <span class="nav-option-word">Courses</span>
+                    </a>
+                </li>
+                <li class="nav-option">
+                    <a href="../../index.html">
+                        <span class="nav-option-word">About Us</span>
+                    </a>
+                </li>
+                <li class="nav-option">
+                    <a class="highlight-word" href="../HTML/loginPg.html">
+                        <span class="nav-option-word1">Log in</span>
+                    </a>
+                </li>
+                <li class="nav-option">
+                    <a class="highlight-word" href="#">
+                        <span class="nav-option-word1">Dashboard</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Dashboard Pg content starts here -->
+
+    <div class="dashPg">
+        <div class="userDetails">
+            <h2 class="greetingsText">
+                Welcome
+                <span class="userName" id="diff-color">
+                    @userName !
+
+                </span>
+            </h2>
+            <!--LOG OUT BTN CAN BE given here  -->
+        </div>
+        <div class="enrollCourse">
+            <table class="enrolledTable">
+                <tr>
+                    <th>Sl. no.</th>
+                    <th>Course Enrolled</th>
+                    <th>Ends On</th>
+                </tr>
+                
+                <tr>
+                    <td>1</td>
+                    <td id="mainDetails">
+                        <div class="cardText">
+                            <h2 class="cour-name">
+                                Introduction to Web Development
+                            </h2>
+                            <p class="cour-details">
+                                Fundamentals of web development, including HTML, CSS, and
+                                JavaScript. <br>
+                                Instructor: John Smith
+                            </p>
+                        </div>
+
+                        <div class="cour-thumb" id="tableImg">
+                            <img src="../img/courseThubnail/1.jpg" alt="Course">
+
+                        </div>
+                    </td>
+                    <td>19-05-2025</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td id="mainDetails">
+                        <div class="cardText">
+                            <h2 class="cour-name">
+                                 Data Science for Beginners
+                            </h2>
+                            <p class="cour-details">
+                                Explore the basics of data science and data analysis with Python.  <br>
+                                Instructor: Jane Doe
+                            </p>
+                        </div>
+
+                        <div class="cour-thumb" id="tableImg">
+                            <img src="../img/courseThubnail/2.jpg" alt="Course">
+                        </div>
+                    </td>
+                    <td>24-11-2024</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+    <!-- Dashboard footer -->
+    <footer>
+        <div class="footer-text">
+            <h1 class="text11">
+                Just _ Another _ EdTech _ Platform
+            </h1>
+        </div>
+        <div class="footer-logo">
+            <img src="../img/logos/logo_jaep_final_1.png" alt="">
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

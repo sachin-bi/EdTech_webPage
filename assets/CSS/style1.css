@@ -5,6 +5,14 @@
     font-family: Rubik,sans-serif;
     scroll-behavior: smooth;
 }
+body {
+    min-height: 100vh;
+    /* margin: 1rem; */
+    font-family: system-ui;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: var(--gray-8);
+}
 /* NAVBAR START */
 header{
     position: sticky;
